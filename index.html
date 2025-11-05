@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mert Bilgin - Oyun Geliştiricisi</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="description" content="Mert Bilgin - Oyun Geliştiricisi. XR Tutkunu, Unity ve Unreal Engine Geliştiricisi.">
+    <meta name="keywords" content="Mert Bilgin, ivarts, ivarts-XR, Oyun Geliştiricisi, Game Developer, Unity, Unreal Engine, XR, AR, VR">
+    <meta name="author" content="Mert Bilgin">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mert Bilgin - Oyun Geliştiricisi">
+    <meta property="og:description" content="XR Tutkunu, Unity ve Unreal Engine Geliştiricisi.">
+    <meta property="og:image" content="images/profile.webp">
+    <meta property="og:url" content="https://mertbilgin.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mert_ivarts">
+    <meta name="twitter:title" content="Mert Bilgin - Oyun Geliştiricisi">
+    <meta name="twitter:description" content="XR Tutkunu, Unity ve Unreal Engine Geliştiricisi.">
+    <meta name="twitter:image" content="images/profile.webp">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="images/bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="profile-image-container">
+                <picture>
+                    <source srcset="images/logo.jpg" type="image/jpeg">
+                    <img src="images/logo.jpg" alt="Mert Bilgin" class="profile-image" 
+                         onerror="this.onerror=null; this.src='images/logo.jpg' || this.src='images/logo.jpg'">
+                </picture>
+                <div class="status-indicator">
+                    <span class="code-icon">&lt;/&gt;</span>
+                    <span class="status-text">Cooking</span>
+                </div>
+            </div>
+            <h1 class="name">Mert Bilgin</h1>
+            <p class="tagline">Game Developer</p>
+        </header>
+
+        <!-- Social Links Section -->
+        <section class="social-links">
+            <h2 class="section-title"></h2>
+            <div class="links-grid">
+                <a href="https://github.com/ivarts-XR" target="_blank" class="link-card github">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>GitHub</h3>
+                        <p>Projelerim ve Kodlarım</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mert-bilgin-29abb6237/" target="_blank" class="link-card linkedin">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>LinkedIn</h3>
+                        <p>Profesyonel Ağım</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <a href="https://x.com/mert_ivarts" target="_blank" class="link-card twitter">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>X (Twitter)</h3>
+                        <p>@mert_ivarts</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/ivar_dev/" target="_blank" class="link-card instagram">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>Instagram</h3>
+                        <p>@ivar_dev</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <a href="https://open.spotify.com/user/sd98pl1dtfpy3yoiwivni6j60?si=88eaa2b037aa2439d" target="_blank" class="link-card spotify">
+                    <div class="link-icon">
+                        <i class="fa-brands fa-spotify"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>Spotify</h3>
+                        <p>Çalışma Müziklerim</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Influence Metrics Section -->
+        <section class="influence-metrics">
+            <h2 class="section-title"></h2>
+            <div class="metrics-grid">
+                <div class="metric-card" data-target="20" data-platform="unity">
+                    <div class="metric-icon">
+                        <i class="fa-brands fa-unity"></i>
+                    </div>
+                    <div class="metric-value">
+                        <span class="counter">0</span>
+                        <span class="suffix">+</span>
+                    </div>
+                    <div class="metric-label">Oyun Yapıldı</div>
+                </div>
+
+                <div class="metric-card" data-target="100000" data-platform="players">
+                    <div class="metric-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="metric-value">
+                        <span class="counter">0</span>
+                        <span class="suffix">+</span>
+                    </div>
+                    <div class="metric-label">Oyuncu</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-card">
+                <p>İş birlikleri ve projeler için:</p>
+                <a href="mailto:ivarts.dev@gmail.com" class="contact-button">
+                    <i class="fas fa-envelope"></i>
+                    <span>E-posta Gönder</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Mert Bilgin. Tüm hakları saklıdır.</p>
+        </footer>
+    </div>
+</body>
+</html>
