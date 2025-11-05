@@ -6,16 +6,16 @@
 }
 
 :root {
-    --primary-color: #007bff; /* Mavi */
+    --primary-color: #8a2be2; /* Mor */
     --secondary-color: #6c757d; /* Gri */
-    --accent-color: #17a2b8; /* Turkuaz */
+    --accent-color: #9370db; /* Orta Mor */
     --dark-bg: #121212; /* Koyu Arka Plan */
     --card-bg: rgba(28, 28, 28, 0.7); /* Kart Arka Planı */
     --text-primary: #ffffff;
     --text-secondary: #b8b8b8;
     --border-color: rgba(255, 255, 255, 0.2);
     --shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-    --gradient: linear-gradient(135deg, #007bff 0%, #17a2b8 100%);
+    --gradient: linear-gradient(135deg, #8a2be2 0%, #9370db 100%);
 }
 
 body {
